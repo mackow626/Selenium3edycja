@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffea38e5-69f8-4139-97fd-69e8f47c947a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KlasaTestowa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PierwszyTestSelenium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PierwszyTestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PierwszyTestSelenium.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="594">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -34,15 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/KlasaTestowa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="198">
               <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PierwszyTestSelenium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+            <state relative-caret-position="301">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebDriver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="627">
               <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
@@ -71,12 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="120">
               <caret line="26" column="113" selection-start-line="26" selection-start-column="113" selection-end-line="26" selection-end-column="113" />
-              <folding>
-                <element signature="e#1831#1832#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -180,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PierwszyTestSelenium">
+  <component name="RunManager" selected="TestNG.PierwszyTestSelenium.wyszukajLublin">
     <configuration name="KlasaTestowa" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -227,10 +214,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PierwszyTestSelenium.wyszukajLublin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PierwszyTestSelenium" />
+      <option name="METHOD_NAME" value="wyszukajLublin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PierwszyTestSelenium" />
+        <item itemvalue="TestNG.PierwszyTestSelenium.wyszukajLublin" />
         <item itemvalue="TestNG.PierwszyTestSelenium.OtwarciePrzegladarki" />
+        <item itemvalue="TestNG.PierwszyTestSelenium" />
         <item itemvalue="TestNG.KlasaTestowa" />
         <item itemvalue="TestNG.KlasaTestowa.PierwszyTest" />
       </list>
@@ -254,62 +254,70 @@
       <option name="project" value="LOCAL" />
       <updated>1571488023247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pierwszy test- otwarcie przegladarki">
+      <created>1571493166181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571493166181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KlasaTestowa_PierwszyTest - 2019.10.19 at 14h 44m 27s.xml">
-      <configuration name="KlasaTestowa.PierwszyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KlasaTestowa_PierwszyTest - 2019.10.19 at 14h 51m 29s.xml">
-      <configuration name="KlasaTestowa.PierwszyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KlasaTestowa - 2019.10.19 at 14h 55m 57s.xml">
-      <configuration name="KlasaTestowa" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KlasaTestowa - 2019.10.19 at 14h 57m 18s.xml">
-      <configuration name="KlasaTestowa" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KlasaTestowa - 2019.10.19 at 15h 00m 17s.xml">
-      <configuration name="KlasaTestowa" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KlasaTestowa - 2019.10.19 at 15h 04m 39s.xml">
-      <configuration name="KlasaTestowa" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KlasaTestowa - 2019.10.19 at 15h 06m 01s.xml">
-      <configuration name="KlasaTestowa" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PierwszyTestSelenium_OtwarciePrzegladarki - 2019.10.19 at 15h 24m 49s.xml">
+    <history-entry file="PierwszyTestSelenium_OtwarciePrzegladarki - 2019.10.19 at 16h 05m 53s.xml">
       <configuration name="PierwszyTestSelenium.OtwarciePrzegladarki" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PierwszyTestSelenium - 2019.10.19 at 15h 47m 43s.xml">
-      <configuration name="PierwszyTestSelenium" configurationId="TestNG" />
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 07m 58s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PierwszyTestSelenium - 2019.10.19 at 15h 48m 53s.xml">
-      <configuration name="PierwszyTestSelenium" configurationId="TestNG" />
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 20m 18s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 22m 25s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 23m 08s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 26m 26s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 27m 18s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 34m 55s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 43m 37s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PierwszyTestSelenium_wyszukajLublin - 2019.10.19 at 16h 47m 27s.xml">
+      <configuration name="PierwszyTestSelenium.wyszukajLublin" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="2" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.43817788" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.4099783" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -320,28 +328,29 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" weight="0.25" />
-      <window_info active="true" id="Structure" order="6" side_tool="true" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.329718" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4101852" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
@@ -349,55 +358,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Pierwszy test- otwarcie przegladarki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pierwszy test- otwarcie przegladarki" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chromedriver.exe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KlasaTestowa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="120">
           <caret line="26" column="113" selection-start-line="26" selection-start-column="113" selection-end-line="26" selection-end-column="113" />
-          <folding>
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="627">
           <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KlasaTestowa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PierwszyTestSelenium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        <state relative-caret-position="301">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
